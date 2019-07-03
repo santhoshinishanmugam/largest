@@ -7,3 +7,5 @@ elif (b > a and b > c):
   print(b)
 elif (c > a and c > b):
   print(c)
+else:
+  print("all are equal")
