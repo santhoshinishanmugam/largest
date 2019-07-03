@@ -1,11 +1,11 @@
-def max(a, b, c)
-if a > b and a > c:
+def max(a, d, c)
+if a > d and a > c:
   big = a
-elif b > c and b > a:
-  big = b
+elif d > c and d > a:
+  big = d
 else:
   big = c
 return big
-a, b, c= map(int (int,input().split()))
-print(max(a, b, c)
+a, d, c= map(int (int,input().split()))
+print(max(a, d, c)
  
