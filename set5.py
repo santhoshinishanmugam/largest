@@ -1,11 +1,11 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if (a > b and a > c):
-  print(a)
-elif (b > a and b > c):
-  print(b)
-elif (c > a and c > b):
-  print(c)
+def max(a, b, c)
+if a > b and a > c:
+  big = a
+elif b > c and b > a:
+  big = b
 else:
-  print("all are equal")
+  big = c
+return big
+a, b, c= map(int (int,input().split()))
+print(max(a, b, c)
+ 
